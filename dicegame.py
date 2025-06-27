@@ -9,3 +9,7 @@ print("Rolling dice...")
 print(f"Die 1: {rng1}")
 print(f"Die 2: {rng2}")
 print(f"Total value: {total}")
+
+if total > 7:
+    print("You won.")
+else: print("You lost.")
